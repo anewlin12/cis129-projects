@@ -11,7 +11,7 @@ TAX = .06
 #These next 11 Lines will prompt the user to select how many items they would like to purchase. using the input statement.
 
 print('***************************************')
-print('My Coffee And Muffin Shop')
+print('PyCafe')
 print('Number of Coffees Bought $',PRICECOFFEE, "Each")
 numOfCoffees = int(input(": "))
 print('Number of Muffins Bought $',PRICEMUFFIN, "Each")
@@ -42,6 +42,7 @@ GrandTotal = Subtotal + TaxofSubtotal
 print('Subtotal: $', Subtotal)
 print('Tax at 6% $', f'{TaxofSubtotal:.2f}')
 print('Total: $', GrandTotal)
+print('Thank you for Shopping at PyCafe')
 print('***************************************')
 
 # :)
